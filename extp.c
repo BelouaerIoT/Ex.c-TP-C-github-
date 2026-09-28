@@ -10,7 +10,7 @@ int main(){
     scanf(%f , &m3);
     sum = m1 + m2 + m3 ;
     moy = (m1 + m2 + m3)/3
-    if (moy < 10 || sum < 24) {
+    if (moy < 10 || m1 <8 || m2 < 8 || M3 <8 ) {
         printf("controle\n");
     }
     else if (moy < 12 && moy >= 10){
